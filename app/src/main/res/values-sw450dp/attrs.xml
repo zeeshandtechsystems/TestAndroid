@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MaxHeightScrollView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TextViewPlus">
+        <attr name="customFont" format="string" />
+        <attr name="spacesAllow" format="boolean" />
+        <attr name= "backColor" format="color"/>
+        <attr name= "gradientUpColor" format="color"/>
+        <attr name= "gradientDownColor" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="SelectionView">
+        <attr name="disableColor" format="color" />
+        <attr name="enable" format="boolean" />
+        <attr name= "enableColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CompoundButton">
+        <attr name="android:button" />
+    </declare-styleable>
+
+    <declare-styleable name="RealtimeBlurView">
+        <attr name="realtimeBlurRadius" format="dimension"/>
+        <attr name="realtimeDownsampleFactor" format="float"/>
+        <attr name="realtimeOverlayColor" format="color"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="LoadingDots">
+        <attr name="LoadingDots_auto_play" format="boolean"/>
+
+        <attr name="LoadingDots_dots_color" format="color"/>
+        <attr name="LoadingDots_dots_count" format="integer"/>
+        <attr name="LoadingDots_dots_size" format="dimension"/>
+        <attr name="LoadingDots_dots_space" format="dimension"/>
+
+        <attr name="LoadingDots_loop_duration" format="integer"/>
+        <attr name="LoadingDots_loop_start_delay" format="integer"/>
+
+        <attr name="LoadingDots_jump_duration" format="integer"/>
+        <attr name="LoadingDots_jump_height" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="verticaltextview">
+        <attr name="direction">
+            <enum name="uptodown" value="0" />
+            <enum name="downtoup" value="1" />
+            <enum name="lefttoright" value="2" />
+            <enum name="righttoleft" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>
