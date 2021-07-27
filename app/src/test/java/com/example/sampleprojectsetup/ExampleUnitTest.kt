@@ -18,9 +18,9 @@ class ExampleUnitTest {
         emailValidate("z@abc.cp'")
     }
     fun emailValidate(email: String): Boolean {
-       /* val pattern: Pattern =
+        val test: Pattern =
             Pattern.compile("^[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$")
-        val matcher: Matcher = pattern.matcher(email)*/
+        val matcher: Matcher = test.matcher(email)
         return matcher.matches()
     }
 }
