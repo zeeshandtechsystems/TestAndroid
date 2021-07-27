@@ -17,10 +17,10 @@ class ExampleUnitTest {
     fun addition_isCorrect() {
         emailValidate("z@abc.cp'")
     }
-    fun emailValidate(email: String): Boolean {
+    fun emailValidate(emai: String): Boolean {
         val test: Pattern =
             Pattern.compile("^[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$")
-        val matcher: Matcher = test.matcher(email)
+        val matcher: Matcher = test.matcher(emai)
         return matcher.matches()
     }
 }
